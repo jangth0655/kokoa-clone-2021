@@ -1,0 +1,19 @@
+.welcome-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0px;
+}
+
+.welcome-header span {
+    text-align: center;
+    margin-top: 35px;
+    width: 40%;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.welcome-header h1 {
+    font-weight: 600;
+    font-size: 28px;
+}
