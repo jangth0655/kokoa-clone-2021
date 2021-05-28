@@ -1,0 +1,33 @@
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-row__find {
+    border-bottom: var(--main-border);
+    padding-bottom: 25px;
+}
+
+.icon-row__more {
+    margin-top: 50px;
+}
+
+.icon-row__settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 10px 0;
+}
+
+.icon-row__settings i {
+    margin-bottom: 18px;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.icon-row__settings span {
+    display: block;
+    
+}
+

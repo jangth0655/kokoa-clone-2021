@@ -6,14 +6,42 @@
 /* screens.css */
 @import "screens/status-bar.css";
 @import "screens/welcome-header.css";
-@import "screens/login-form.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "screens/splash-screen.css";
+
 /* components.css */
+@import "components/login-form.css";
+@import "components/nar-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+@import "components/alarm.css";
+@import "components/badge.css";
+@import "components/screen-slot.css";
+@import "components/icon-row.css";
+@import "components/screen-header__settings.css";
+@import "components/no-mobile.css";
+
+
 
 body {
     font-family: 'Open Sans', sans-serif;
+    height: 200vh;
+    
 }
 
 input {
     outline: none;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}

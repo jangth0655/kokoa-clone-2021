@@ -1,0 +1,37 @@
+.screen-header-settings {
+    padding: 0px var(--horizontal-space);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.screen-header-settings h1 {
+    margin: 0 auto;
+    font-size: 28px;
+}
+
+.screen-header-settings__column {
+    width: 33%;
+}
+
+.screen-header-settings__column:first-child {
+    margin-right: auto;
+    
+}
+
+.screen-header-settings__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.screen-header-settings__column:last-child {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen-header-settings__column span:last-child {
+    margin-left: 20px;
+}
